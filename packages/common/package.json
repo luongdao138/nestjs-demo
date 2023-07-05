@@ -13,7 +13,11 @@
     "dist/**/*"
   ],
   "devDependencies": {
-    "typescript": "^5.1.6",
-    "rimraf": "^5.0.1"
+    "@types/lodash": "^4.14.195",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
