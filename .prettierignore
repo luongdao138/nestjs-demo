@@ -1,0 +1,23 @@
+**/node_modules/*
+**/out/*
+**/.next/*
+**/.vscode/*
+**/.idea/*
+**/.idea/*
+**/.vscode/*
+**/dist/*
+**/docker_data/*
+**/coverage/*
+*.env
+*.env.*
+
+**/scripts/*
+**/migrations/*
+
+
+# Project
+**/swagger
+
+packages/**/*.d.ts
+packages/**/*.js
+.nyc_output

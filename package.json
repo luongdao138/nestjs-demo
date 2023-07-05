@@ -1,0 +1,38 @@
+{
+  "name": "piom",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "concurrently": "^8.2.0",
+    "cross-env": "^7.0.3",
+    "lerna": "^7.1.1",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "clean": "lerna clean",
+    "watch": "lerna run watch --parallel",
+    "build": "lerna run build",
+    "lint": "lerna run lint",
+    "format": "prettier --write --html-whitespace-sensitivity ignore ."
+  }
+}
